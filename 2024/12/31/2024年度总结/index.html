@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang=cn>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="老样子，最后一天，总结一下 说实话，今年过完，发现意外的还不错，首先就是，换了一个新的环境，也是入职了甲方，原本以为和以前会大不相同，但其实很多东西都是差不多的，但是也接触到了很多更深入的东西，例如从代码的层面去思考逻辑漏洞的产生，包括今年也在不断的试着去学习、总结、优化自己思路上的东西，一个漏洞更吸引我的往往不是危害，而是它背后的逻辑为什么会产生这个问题 然后就是回顾一下去年的期望，我也是到了年">
+<meta property="og:type" content="article">
+<meta property="og:title" content="2024年 年度总结">
+<meta property="og:url" content="https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/index.html">
+<meta property="og:site_name" content="Elapse&#39;s Blog">
+<meta property="og:description" content="老样子，最后一天，总结一下 说实话，今年过完，发现意外的还不错，首先就是，换了一个新的环境，也是入职了甲方，原本以为和以前会大不相同，但其实很多东西都是差不多的，但是也接触到了很多更深入的东西，例如从代码的层面去思考逻辑漏洞的产生，包括今年也在不断的试着去学习、总结、优化自己思路上的东西，一个漏洞更吸引我的往往不是危害，而是它背后的逻辑为什么会产生这个问题 然后就是回顾一下去年的期望，我也是到了年">
+<meta property="og:locale">
+<meta property="og:image" content="https://elapse-blog-pic.oss-cn-shenzhen.aliyuncs.com/pic/20241231210548.png">
+<meta property="og:image" content="https://elapse-blog-pic.oss-cn-shenzhen.aliyuncs.com/pic/20241231214217.png">
+<meta property="og:image" content="https://elapse-blog-pic.oss-cn-shenzhen.aliyuncs.com/pic/20241231214823.png">
+<meta property="article:published_time" content="2024-12-31T13:57:00.000Z">
+<meta property="article:modified_time" content="2024-12-31T13:58:01.501Z">
+<meta property="article:author" content="Elapse">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://elapse-blog-pic.oss-cn-shenzhen.aliyuncs.com/pic/20241231210548.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>2024年 年度总结</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+      <link rel="alternate" href="/true" title="Elapse&#39;s Blog" type="application/atom+xml" />
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">主页</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/friends/">友链</a></li><!--
+     --><!--
+       --><li><a href="/search/">搜索</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于我</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" aria-label="Next post" href="/2024/10/23/FastJson%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&text=2024年 年度总结"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&title=2024年 年度总结"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&is_video=false&description=2024年 年度总结"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=2024年 年度总结&body=Check out this article: https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&title=2024年 年度总结"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&title=2024年 年度总结"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&title=2024年 年度总结"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&title=2024年 年度总结"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&name=2024年 年度总结&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&t=2024年 年度总结"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E5%B0%BE"><span class="toc-number">1.</span> <span class="toc-text">结尾</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        2024年 年度总结
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Elapse</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2024-12-31T13:57:00.000Z" itemprop="datePublished">2024-12-31</time>
+        
+      
+    </div>
+
+
+      
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>老样子，最后一天，总结一下</p>
+<p>说实话，今年过完，发现意外的还不错，首先就是，换了一个新的环境，也是入职了甲方，原本以为和以前会大不相同，但其实很多东西都是差不多的，但是也接触到了很多更深入的东西，例如从代码的层面去思考逻辑漏洞的产生，包括今年也在不断的试着去学习、总结、优化自己思路上的东西，一个漏洞更吸引我的往往不是危害，而是它背后的逻辑为什么会产生这个问题</p>
+<p>然后就是回顾一下去年的期望，我也是到了年底才发现，有很多目标其实阴差阳错的就接触到了，不说学的很多，但是也算是开始接触起来了</p>
+<ul>
+<li>代码审计</li>
+</ul>
+<p>今年开始的时候，开始手动去跟fastjson几个版本的利用链去分析，后面写了一些，但是碍于上传图片太麻烦，也一直就留在了语雀上</p>
+<p>同时，也开始将大量的时间放在了工作中的代码审计上，不断的去锻炼阅读代码的思维吧，今年在这块的学习我觉得还是ok的，后面可以在找找开源项目审计看看</p>
+<ul>
+<li>工具编写</li>
+</ul>
+<p>今年，自己试着去写了<code>burpsuite</code>的插件，一个是用于并发的，一个则是修改的<code>Xia_sql</code></p>
+<p>其次，还有各种各样的信息收集的小工具的开发，当然，也在不断的去试验信息收集的方法，学习各种方法的相结合下，怎么样能发现的更多</p>
+<p>在年初的时候，其实我简单的构思过一个分布式扫描</p>
+<p><img src="https://elapse-blog-pic.oss-cn-shenzhen.aliyuncs.com/pic/20241231210548.png" alt="ElapseScan框架"></p>
+<p>后来准备写之前，重新完善了一下细节，才发现，控制中心来对节点端发起请求实在是有些不靠谱，最好的还是由节点端来拉取任务，同时，web端用jwt的方式，节点端用apikey的方式来通信，只能说很完美，测试了一下，也确实能自动拉取任务然后运行了，nice</p>
+<p>其他的，其实就是简单的搞搞后渗透的一些工具了，但感觉都是很浅层的一些改造。</p>
+<ul>
+<li>生活</li>
+</ul>
+<p>今年终于能够在身边给宝宝过生日啦，也难得的去了外地玩，终于有一种旅游的感觉了，在路上和喜欢的人讨论着路上的各种，看各种各样的新鲜事物，就是可惜没看到打铁花（</p>
+<p><img src="https://elapse-blog-pic.oss-cn-shenzhen.aliyuncs.com/pic/20241231214217.png" alt="image-20241231214216689"></p>
+<p><img src="https://elapse-blog-pic.oss-cn-shenzhen.aliyuncs.com/pic/20241231214823.png" alt="image-20241231214823065"></p>
+<h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>总的来说是不错的，唯一不满足的是，在内网这块玩的倒是没那么多了，希望自己新的一年里，能好好恋爱，好好学习，感谢宝宝一整年的陪伴！也感谢战队的各位佬们在思路上的交流和分享，虽然一半一半都在吹水，但是牛就完事了</p>
+<p>最后的最后，祝各位新年快乐</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">主页</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/friends/">友链</a></li>
+         
+          <li><a href="/search/">搜索</a></li>
+         
+          <li><a href="/about/">关于我</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E5%B0%BE"><span class="toc-number">1.</span> <span class="toc-text">结尾</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&text=2024年 年度总结"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&title=2024年 年度总结"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&is_video=false&description=2024年 年度总结"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=2024年 年度总结&body=Check out this article: https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&title=2024年 年度总结"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&title=2024年 年度总结"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&title=2024年 年度总结"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&title=2024年 年度总结"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&name=2024年 年度总结&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://ernket.github.io/2024/12/31/2024%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/&t=2024年 年度总结"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2017-2024
+    Elapse
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">主页</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/friends/">友链</a></li><!--
+     --><!--
+       --><li><a href="/search/">搜索</a></li><!--
+     --><!--
+       --><li><a href="/about/">关于我</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4R6HL0YTHB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-4R6HL0YTHB');
+    </script>
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
